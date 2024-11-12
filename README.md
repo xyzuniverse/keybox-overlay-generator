@@ -1,4 +1,4 @@
-# Keybox overlay generator
+# CertifiedPropsOverlay generator
 A overlay generator for those who are lazy (including me xD)
 
 ## Installation
@@ -11,10 +11,12 @@ Install this project with npm
 ```
 
 ## How to use
-- Copy your `keybox.xml` into current project folder
+- Copy and overwrite your `keybox.xml` into current project folder for keybox
+- Copy your fingerprint JSON file into `fingerprint.json` file type if available, if not the script will be automatically fetch from https://github.com/chiteroman/PlayIntegrityFix
+
 - Run the script:
 ```bash
 node index.js
 ```
 
-The result is writed on `output.txt`, just copy and paste it into your CertifiedPropsOverlay.
+The result is writed on `output.txt` or `overlay.xml`, just copy and paste it into your CertifiedPropsOverlay.
